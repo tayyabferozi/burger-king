@@ -16,6 +16,12 @@
   background-size: cover;
 }
 
+@media screen and (min-width: 376px) {
+  .main-screen {
+    min-height: 720px;
+  }
+}
+
 .main-screen .img-asset {
   position: absolute;
 }
